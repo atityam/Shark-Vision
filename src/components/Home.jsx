@@ -139,11 +139,26 @@ const Home = () => {
                </Container>  
         </Carousel.Item>
       </Carousel>
-      <div>
-        <marquee width="60%" direction="left" height="100px">
-             This is a sample scrolling text that has scrolls texts to the left.
-        </marquee>
-      </div>
+
+<div className="marquee-wrapper">
+  <div className="marquee-track">
+    {Array(10).fill(0).map((_, i) => (
+      <span key={i} className="marquee-item">
+        * Experience Seamless IT Solutions *
+      </span>
+    ))}
+    {/* Repeat the same items to make loop seamless */}
+    {Array(10).fill(0).map((_, i) => (
+      <span key={i + 100} className="marquee-item">
+        * Experience Seamless IT Solutions *
+      </span>
+    ))}
+  </div>
+</div>
+
+
+
+
     </>
   );
 };
