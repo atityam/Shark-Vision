@@ -139,6 +139,11 @@ const Home = () => {
                </Container>  
         </Carousel.Item>
       </Carousel>
+      <div>
+        <marquee width="60%" direction="left" height="100px">
+             This is a sample scrolling text that has scrolls texts to the left.
+        </marquee>
+      </div>
     </>
   );
 };
