@@ -155,7 +155,7 @@ const Home = () => {
     ))}
   </div>
 </div>
-
+<div> adtya</div>
 
 
 
