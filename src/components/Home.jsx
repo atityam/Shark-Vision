@@ -6,7 +6,7 @@ import heroimg from '../assets/heroimg.png';
 const Home = () => {
   return (
     <>
-      <Carousel data-bs-theme="dark">
+      <Carousel controls={false} indicators={true} data-bs-theme="dark">
         <Carousel.Item className='bg-dark'>
           <Container className="py-5 text-white ">
             <Row className="align-items-center g-4 ">
@@ -155,7 +155,6 @@ const Home = () => {
     ))}
   </div>
 </div>
-<div> adtya</div>
 
 
 

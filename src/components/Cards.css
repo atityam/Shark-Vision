@@ -1,0 +1,23 @@
+.testimonial-section {
+  background-color: #0f1123; /* Dark background like your screenshot */
+  color: #fff;
+}
+
+.testimonial-card {
+  background-color: #181b3a; /* Card background */
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.swiper-pagination-bullet {
+  background: #181b3a; /* Inactive dot color */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff4500; /* Active dot color */
+}
