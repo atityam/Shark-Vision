@@ -36,7 +36,7 @@ const testimonials = [
   },
 ];
 
-const Testimonial = () => {
+const Cards = () => {
   return (
     <section className="testimonial-section py-5">
       <div className="container">
@@ -86,4 +86,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Cards;
