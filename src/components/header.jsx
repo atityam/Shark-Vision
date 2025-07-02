@@ -85,12 +85,12 @@ const Header = () => {
 
           <Navbar.Collapse id="main-navbar" className="justify-content-end">
             <Nav className="m-auto">
-              <Nav.Link href="#home" className="text-primary fw-bold">Home</Nav.Link>
-              <Nav.Link href="#about">About Us</Nav.Link>
-              <Nav.Link href="#services">Our Services</Nav.Link>
+              <Nav.Link href="" className="text-primary fw-bold">Home</Nav.Link>
+              <Nav.Link href="">About Us</Nav.Link>
+              <Nav.Link href="">Our Services</Nav.Link>
               <NavDropdown title="Pages" id="pages-dropdown">
-                <NavDropdown.Item href="#page1">Page 1</NavDropdown.Item>
-                <NavDropdown.Item href="#page2">Page 2</NavDropdown.Item>
+                <NavDropdown.Item href="">Page 1</NavDropdown.Item>
+                <NavDropdown.Item href="">Page 2</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#contact" >Contact Us</Nav.Link>
             </Nav>

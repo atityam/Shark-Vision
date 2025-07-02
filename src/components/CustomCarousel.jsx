@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel, Button, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import slide1 from "../assets/img/carousel-1.jpg"; // Replace with actual image paths
+import slide1 from "../assets/img/carousel-1.jpg"; 
 import slide2 from "../assets/img/carousel-2.jpg";
 
 const CustomCarousel = () => {

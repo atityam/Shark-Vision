@@ -1,78 +1,117 @@
-import React from 'react'
-import { Container, Row, Col, Form, Button, InputGroup } from 'react-bootstrap';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPinterestP, FaPaperPlane } from 'react-icons/fa';
-
+import React from "react";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import {
+  FaTwitter,
+  FaFacebookF,
+  FaYoutube,
+  FaLinkedinIn,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaChevronRight,
+  FaShieldAlt,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-dark text-light pt-5 pb-3" style={{ fontFamily: 'sans-serif' }}>
+    <footer className="bg-dark text-light pt-5 pb-3">
       <Container>
-        <Row className="justify-content-between text-secondary text-center text-md-start">
-          <Col md={4} className="mb-4 text-center text-md-start">
-            <h4 className="fw-bold bg-light text-dark d-inline-block px-2 py-1">SHARK VISION</h4>
-            <p className="mt-3">
-              Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine
-              multifunctional mind design.
+        <Row className="gy-4">
+          {/* Logo & About */}
+          <Col md={6} lg={3}>
+            <h4 className="fw-bold mb-3 d-flex align-items-center gap-2">
+              <FaShieldAlt size={30} />
+              Insure
+            </h4>
+            <p>
+              Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+              ipsum et lorem et sit, sed stet lorem sit clita
             </p>
-            <div className="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
-                  <FaFacebookF />
-                  <FaTwitter />
-                  <FaLinkedinIn />
-                  <FaPinterestP />
+            <div className="d-flex gap-2 mt-3">
+              {[FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn].map((Icon, i) => (
+                <a
+                  key={i}
+                  href="/"
+                  className="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center"
+                  style={{ width: "40px", height: "40px" }}
+                >
+                  <Icon />
+                </a>
+              ))}
             </div>
-
           </Col>
 
-          <Col md={2} className="mb-4">
-            <h5 className="fw-bold">Useful Links</h5>
-            <ul className="list-unstyled mt-3">
-              <li>About Company</li>
-              <li>Meet Our Team</li>
-              <li>Latest Blog</li>
-              <li>Contact Us</li>
-              <li>Testimonials</li>
-            </ul>
-          </Col>
-
-          <Col md={2} className="mb-4">
-            <h5 className="fw-bold">Services.</h5>
-            <ul className="list-unstyled mt-3">
-              <li>About Company</li>
-              <li>Meet Our Team</li>
-              <li>Latest Blog</li>
-              <li>Contact Us</li>
-              <li>FAQ</li>
-            </ul>
-          </Col>
-
-          <Col md={4} className="mb-4">
-            <h5 className="fw-bold">Newsletter</h5>
-            <p className="mt-3">
-              Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine
-              multifunctional mind design.
+          {/* Address */}
+          <Col md={6} lg={3}>
+            <h5 className="fw-bold mb-3">Address</h5>
+            <p className="mb-2 d-flex align-items-center gap-2">
+              <FaMapMarkerAlt /> 123 Street, New York, USA
             </p>
-            <InputGroup className="mt-3">
-              <Form.Control placeholder="Enter Your E-mail" />
-              <Button variant="danger">
-                <FaPaperPlane />
+            <p className="mb-2 d-flex align-items-center gap-2">
+              <FaPhoneAlt /> +012 345 67890
+            </p>
+            <p className="mb-0 d-flex align-items-center gap-2">
+              <FaEnvelope /> info@example.com
+            </p>
+          </Col>
+
+          {/* Quick Links */}
+          <Col md={6} lg={3}>
+            <h5 className="fw-bold mb-3">Quick Links</h5>
+            {["About Us", "Contact Us", "Our Services", "Terms & Condition", "Support"].map(
+              (link, i) => (
+                <p key={i} className="mb-2">
+                  <a href="/" className="text-light text-decoration-none d-flex align-items-center gap-2">
+                    <FaChevronRight size={12} /> {link}
+                  </a>
+                </p>
+              )
+            )}
+          </Col>
+
+          {/* Newsletter */}
+          <Col md={6} lg={3}>
+            <h5 className="fw-bold mb-3">Newsletter</h5>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <Form className="d-flex">
+              <Form.Control
+                type="email"
+                placeholder="Your email"
+                className="rounded-start"
+              />
+              <Button variant="primary" className="rounded-end">
+                SignUp
               </Button>
-            </InputGroup>
+            </Form>
           </Col>
         </Row>
-
-        <hr className="border-secondary" />
-        <Row className="justify-content-between text-secondary">
-          <Col xs={12} md={6} className="mb-2 mb-md-0">
-             <p className="mb-0">© Copyright 2025 By Shark Vision</p>
-          </Col>
-          <Col xs={12} md={6}>
-             <p className="mb-0">Privacy Policy &nbsp;&nbsp; Supports</p>
+        <hr className="border-light my-4" />
+        <Row >
+          <Col>
+            <small>
+              <div >
+              <div>
+              © <span className="text-primary text-start">Your Site Name</span>, All Rights
+              Reserved.
+              </div> 
+              <div className="text-end">
+              Designed By{" "}
+              <a href="/" className="text-primary text-decoration-none">
+                HTML Codex
+              </a>{" "}
+              <br />
+              Distributed By{" "}
+              <a href="/" className="text-primary text-decoration-none">
+                ThemeWagon
+              </a>
+              </div>
+              </div>
+            </small>
           </Col>
         </Row>
       </Container>
-    </div>
+    </footer>
   );
 };
 
 export default Footer;
-

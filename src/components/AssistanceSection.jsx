@@ -12,24 +12,23 @@ const AssistanceSection = () => {
     <Container className="my-5 py-5">
       <Row className="align-items-center">
         {/* Left Side */}
-        <Col md={6} className="position-relative">
+        <Col md={6} className="position-relative my-container-1">
           {/* Experience Badge */}
-          <div
-  style={{
-    position: "absolute",
-    border: "20px solid #fff", 
-    top: "-60px",                  // fixed: added missing comma above
-    left: "-30px",
-    zIndex: 10,
-    backgroundColor: "#0d6efd",
-    color: "#fff",
-    padding: "30px 30px",
-    borderRadius: "15px",
-    textAlign: "center",
-    fontWeight: "bold",
-    
-  }}
->
+          <div style={{
+                   position: "absolute",
+                   border: "20px solid #fff", 
+                   top: "-60px",                  
+                   left: "-30px",
+                   zIndex: 10,
+                   backgroundColor: "#0d6efd",
+                   color: "#fff",
+                   padding: "30px 30px",
+                   borderRadius: "15px",
+                   textAlign: "center",
+                   fontWeight: "bold",
+                   
+                 }}
+            >
   <div style={{ fontSize: "3rem", lineHeight: "1.2" }}>25</div>
   <div>Years</div>
   <div style={{ fontSize: "1.5rem", fontWeight: "normal" }}>
@@ -49,7 +48,7 @@ const AssistanceSection = () => {
         </Col>
 
         {/* Right Side */}
-        <Col md={6}>
+        <Col md={6} className="my-container-2">
           <h1 className="fw-bold mb-4">
             We're Here To Assist You With Exploring Protection
           </h1>
@@ -100,6 +99,8 @@ const AssistanceSection = () => {
           </div>
         </Col>
       </Row>
+
+      
     </Container>
   );
 };
