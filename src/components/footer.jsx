@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Button,InputGroup, FormControl } from "react-bootstrap";
 import {
   FaTwitter,
   FaFacebookF,
@@ -14,7 +14,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light pt-5 pb-3">
+    <footer className="bg-footer text-light pt-5 pb-3">
       <Container>
         <Row className="gy-4">
           {/* Logo & About */}
@@ -58,7 +58,7 @@ const Footer = () => {
           {/* Quick Links */}
           <Col md={6} lg={3}>
             <h5 className="fw-bold mb-3">Quick Links</h5>
-            {["About Us", "Contact Us", "Our Services", "Terms & Condition", "Support"].map(
+            {["About Us", "Contact Us", "Our Services"].map(
               (link, i) => (
                 <p key={i} className="mb-2">
                   <a href="/" className="text-light text-decoration-none d-flex align-items-center gap-2">
@@ -73,16 +73,35 @@ const Footer = () => {
           <Col md={6} lg={3}>
             <h5 className="fw-bold mb-3">Newsletter</h5>
             <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <Form className="d-flex">
-              <Form.Control
-                type="email"
-                placeholder="Your email"
-                className="rounded-start"
-              />
-              <Button variant="primary" className="rounded-end">
-                SignUp
-              </Button>
-            </Form>
+   <Form className="bg-border text-white">
+      <InputGroup className="bg-border">
+        <FormControl
+          type="email"
+          placeholder="Your email"
+          className="rounded-pill pe-5 border-2 bg-border text-white"
+          style={{ height: '48px' ,
+            backgroundColor : '#15233c',
+            color : '#fff',
+            borderColor : '#fff',
+            border:' 2px solid white',
+          }}
+        />
+<Button
+  type="submit"
+  className="position-absolute end-0 me-2 my-auto rounded-pill text-white border-0"
+  style={{
+    backgroundColor: '#00D9FF',
+    height: '38px',
+    padding: '0 16px',
+    top: '50%',
+    transform: 'translateY(-50%)',
+    zIndex: 100,   // make sure button stays above the input on focus
+  }}
+>
+  SignUp
+</Button>
+      </InputGroup>
+    </Form>
           </Col>
         </Row>
         <hr className="border-light my-4" />
@@ -90,21 +109,10 @@ const Footer = () => {
           <Col>
             <small>
               <div >
-              <div>
-              © <span className="text-primary text-start">Your Site Name</span>, All Rights
-              Reserved.
+              <div className="text-center">
+              © <span >Copyright 2025 By Shark Vision</span>
               </div> 
-              <div className="text-end">
-              Designed By{" "}
-              <a href="/" className="text-primary text-decoration-none">
-                HTML Codex
-              </a>{" "}
-              <br />
-              Distributed By{" "}
-              <a href="/" className="text-primary text-decoration-none">
-                ThemeWagon
-              </a>
-              </div>
+             
               </div>
             </small>
           </Col>

@@ -10,25 +10,79 @@ import Feedback from "./components/Feedback.jsx";
 import Footer from "./components/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import './App.css';
+import ContactHeader from "./components/ContactHeader.jsx";
+import AboutHeader from "./components/AboutHeader.jsx";
+import ServicesHeader from "./components/ServicesHeader.jsx";
+import MapContactSection from "./components/MapContactSection.jsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HomePage } from "./Pages/HomePage.jsx";
+import { AboutPage } from "./Pages/AboutPage.jsx";
+import { ServicesPage } from "./Pages/ServicesPage.jsx";
+import { ContactPage } from "./Pages/ContactPage.jsx";
+import AppLayout from "./components/AppLayout.jsx";
+import FeaturesPage from './Pages/FeaturesPage';
+import AppointmentPage from './Pages/AppointmentPage';
 
 
 
 function App() {
-  return (
-    <>
-      <Header />
-      <CustomCarousel/>
-      <AssistanceSection/>
-      <StatsSection/>
-      <Features/>
-      <Services/>
-      <Contact/>
-      <TeamSection/>
-      <Feedback/>
-      <Footer />
-      <ScrollToTop/>
-    </>
-  );
+  const router = createBrowserRouter([
+      {
+          path: "/",
+          element: <AppLayout/>,
+          children: [
+          
+            {
+          path: "/",
+          element: <HomePage/>,
+        
+      },
+      {
+          path: "/about",
+          element: <AboutPage/>,
+      },
+      {
+          path: "/services",
+          element: <ServicesPage/>,
+      },
+      {
+          path: "/contact",
+          element: <ContactPage/>,
+      },
+      {
+          path: "/features",
+          element: <FeaturesPage/>,
+      },
+      {
+          path: "/appointment",
+          element: <AppointmentPage/>,
+      },
+
+    ],
+  },     
+
+]) ;
+  return <RouterProvider router={router}/>;
+
+  // return (
+  //   <>
+  //     <Header />
+  //     <AboutHeader/>
+  //     <ServicesHeader/>
+  //     <ContactHeader/>
+  //     <MapContactSection/>
+  //     <CustomCarousel/>
+  //     <AssistanceSection/>
+  //     <StatsSection/>
+  //     <Features/>
+  //     <Services/>
+  //     <Contact/>
+  //     <TeamSection/>
+  //     <Feedback/>
+  //     <Footer />
+  //     <ScrollToTop/>
+  //   </>
+  // );
 }
 
 export default App;

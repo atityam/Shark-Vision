@@ -144,3 +144,23 @@
 .carousel-btn:hover {
   background-color: #084298;
 }
+.hover-blue{
+       color : #6a6e77;
+}
+.hover-blue:hover {
+  color:#0d6efd !important; /* optional: make text white on hover */
+}
+.hover-blue:active{
+  color: #0d6efd  !important ;
+  font-weight: bold;
+}
+.bg-footer{
+  background-color: #15233c;
+  
+}
+.bg-border{
+  border-color: #fff;
+}
+.active{
+  color: #535bf2;
+}
