@@ -12,49 +12,49 @@ const Services = () => {
           <Col md={4} >
             <Card className="h-100 text-start p-4 border-0 shadow-sm">
               <FaUserShield className="text-primary fs-1 mb-3" />
-              <h5 className="fw-semibold mb-2">Life Insurance</h5>
-              <p className="text-muted mb-3">Aliqu diam amet eos erat ipsum et lorem et sit clita duo justo erat amet.</p>
-              <Button variant="link" className="p-0 text-decoration-none">Read More</Button>
+              <h5 className="fw-semibold mb-2">Augmented Reality</h5>
+              <p className="text-muted mb-3">paradigms. Monotonectally extend open-source mvia competitive methods of empowerment dri revolutionize stand- business</p>
+              <Button variant="link" className="p-0 text-decoration-none" href='#top'>Read More</Button>
             </Card>
           </Col>
           <Col md={4}>
             <Card className="h-100 text-start p-4 border-0 shadow-sm">
               <FaHeartbeat className="text-primary fs-1 mb-3" />
-              <h5 className="fw-semibold mb-2">Health Insurance</h5>
-              <p className="text-muted mb-3">Aliqu diam amet eos erat ipsum et lorem et sit clita duo justo erat amet.</p>
-              <Button variant="link" className="p-0 text-decoration-none">Read More</Button>
+              <h5 className="fw-semibold mb-2">Managed IT Services</h5>
+              <p className="text-muted mb-3">paradigms. Monotonectally extend open-source mvia competitive methods of empowerment dri revolutionize stand- business</p>
+              <Button variant="link" className="p-0 text-decoration-none" href='#top'>Read More</Button>
             </Card>
           </Col>
           <Col md={4}>
             <Card className="h-100 text-start p-4 border-0 shadow-sm">
               <FaHome className="text-primary fs-1 mb-3" />
-              <h5 className="fw-semibold mb-2">Home Insurance</h5>
-              <p className="text-muted mb-3">Aliqu diam amet eos erat ipsum et lorem et sit clita duo justo erat amet.</p>
-              <Button variant="link" className="p-0 text-decoration-none">Read More</Button>
+              <h5 className="fw-semibold mb-2">Machine Learning</h5>
+              <p className="text-muted mb-3">paradigms. Monotonectally extend open-source mvia competitive methods of empowerment dri revolutionize stand- business</p>
+              <Button variant="link" className="p-0 text-decoration-none" href='#top'>Read More</Button>
             </Card>
           </Col>
           <Col md={4}>
             <Card className="h-100 text-start p-4 border-0 shadow-sm">
               <FaCar className="text-primary fs-1 mb-3" />
-              <h5 className="fw-semibold mb-2">Vehicle Insurance</h5>
-              <p className="text-muted mb-3">Aliqu diam amet eos erat ipsum et lorem et sit clita duo justo erat amet.</p>
-              <Button variant="link" className="p-0 text-decoration-none">Read More</Button>
+              <h5 className="fw-semibold mb-2">Augmented Reality</h5>
+              <p className="text-muted mb-3">paradigms. Monotonectally extend open-source mvia competitive methods of empowerment dri revolutionize stand- business.</p>
+              <Button variant="link" className="p-0 text-decoration-none" href='#top'>Read More</Button>
             </Card>
           </Col>
           <Col md={4}>
             <Card className="h-100 text-start p-4 border-0 shadow-sm">
               <FaBriefcase className="text-primary fs-1 mb-3" />
-              <h5 className="fw-semibold mb-2">Business Insurance</h5>
-              <p className="text-muted mb-3">Aliqu diam amet eos erat ipsum et lorem et sit clita duo justo erat amet.</p>
-              <Button variant="link" className="p-0 text-decoration-none">Read More</Button>
+              <h5 className="fw-semibold mb-2">Managed IT Services</h5>
+              <p className="text-muted mb-3">paradigms. Monotonectally extend open-source mvia competitive methods of empowerment dri revolutionize stand- business</p>
+              <Button variant="link" className="p-0 text-decoration-none" href='#top'>Read More</Button>
             </Card>
           </Col>
           <Col md={4}>
             <Card className="h-100 text-start p-4 border-0 shadow-sm">
               <FaBuilding className="text-primary fs-1 mb-3" />
-              <h5 className="fw-semibold mb-2">Property Insurance</h5>
-              <p className="text-muted mb-3">Aliqu diam amet eos erat ipsum et lorem et sit clita duo justo erat amet.</p>
-              <Button variant="link" className="p-0 text-decoration-none">Read More</Button>
+              <h5 className="fw-semibold mb-2">Machine Learning</h5>
+              <p className="text-muted mb-3">paradigms. Monotonectally extend open-source mvia competitive methods of empowerment dri revolutionize stand- business</p>
+              <Button variant="link" className="p-0 text-decoration-none" href='#top'>Read More</Button>
             </Card>
           </Col>
         </Row>

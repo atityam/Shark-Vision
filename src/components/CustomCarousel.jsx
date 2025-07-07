@@ -32,14 +32,13 @@ const CustomCarousel = () => {
         />
         <Carousel.Caption className="text-start mb-5 ps-5 custom-caption">
           <h1 className="fw-bold display-4">
-            Insurance Creates <br /> Wealth For Everyone
+            Empowering Your <br /> Digital Future
           </h1>
           <p className="lead">
-            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-            magna dolore erat amet
+            Where your interests meet global networks, we deliver custom software solutions with exceptional value.
           </p>
           <Button variant="primary" size="lg">
-            More Details
+            Explore More
           </Button>
         </Carousel.Caption>
       </Carousel.Item>
@@ -52,14 +51,14 @@ const CustomCarousel = () => {
         />
         <Carousel.Caption className="text-start mb-5 ps-5 custom-caption">
           <h1 className="fw-bold display-4">
-            The Best Insurance <br /> Begins Here
+            Empowering Your <br /> Digital Future
           </h1>
           <p className="lead">
-            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-            magna dolore erat amet
+            Where your interests meet global networks, we deliver custom software solutions with exceptional value.
+
           </p>
           <Button variant="primary" size="lg">
-            More Details
+            Explore More
           </Button>
         </Carousel.Caption>
       </Carousel.Item>

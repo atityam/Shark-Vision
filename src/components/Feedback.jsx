@@ -9,21 +9,21 @@ import Client3 from "../assets/img/testimonial-3.jpg"
 
 const slides = [
   {
-    text: "Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.",
-    name: "Client Name 1",
-    profession: "Profession",
+    text: "Regional Manager limited time management",
+    name: "Hossain Asif",
+    profession: "UI/UX Designer",
     image: Client1,
   },
   {
-    text: "Eirmod erat diam duo magna rebum amet ipsum. Magna lorem invidunt sit sit clita et, sed et lorem kasd labore amet dolore lorem.",
-    name: "Client Name 2",
-    profession: "Profession",
+    text: "The Complete Guide to Tekone App Development",
+    name: "Hossain Asif",
+    profession: "Web Developer",
     image: Client2,
   },
   {
-    text: "At tempor sea diam et tempor amet, amet sit dolor amet magna magna. Clita amet lorem sed duo dolor amet et.",
-    name: "Client Name 3",
-    profession: "Profession",
+    text: "Easy and Most Powerful Server and Platform",
+    name: "Hossain Asif",
+    profession: "Web Designer",
     image: Client3,
   },
 ];
@@ -73,7 +73,7 @@ const Feedback = () => {
                     height="100"
                   />
                 </div>
-                <p className="text-muted mx-auto mb-3" style={{ maxWidth: "800px" }}>
+                <p className="text-muted fw-bolder mx-auto mb-3" style={{ maxWidth: "800px" }}>
                   {slide.text}
                 </p>
                 <h5 className="fw-bold">{slide.name}</h5>

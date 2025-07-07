@@ -14,20 +14,18 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-footer text-light pt-5 pb-3">
+    <footer className="bg-footer text-light pt-5 pb-5 py-5">
       <Container>
         <Row className="gy-4">
           {/* Logo & About */}
           <Col md={6} lg={3}>
-            <h4 className="fw-bold mb-3 d-flex align-items-center gap-2">
+            <h4 className="fw-bold mb-3 d-flex align-items-center gap-2 py-sm-5">
               <FaShieldAlt size={30} />
-              Insure
+             SHARK VISION
             </h4>
-            <p>
-              Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-              ipsum et lorem et sit, sed stet lorem sit clita
+            <p>Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine multifunctional mind design.
             </p>
-            <div className="d-flex gap-2 mt-3">
+            <div className="d-flex gap-2 mt-3 py-sm-3">
               {[FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn].map((Icon, i) => (
                 <a
                   key={i}
@@ -43,7 +41,7 @@ const Footer = () => {
 
           {/* Address */}
           <Col md={6} lg={3}>
-            <h5 className="fw-bold mb-3">Address</h5>
+            <h5 className="fw-bold mb-3 py-sm-5">Address</h5>
             <p className="mb-2 d-flex align-items-center gap-2">
               <FaMapMarkerAlt /> 123 Street, New York, USA
             </p>
@@ -57,8 +55,8 @@ const Footer = () => {
 
           {/* Quick Links */}
           <Col md={6} lg={3}>
-            <h5 className="fw-bold mb-3">Quick Links</h5>
-            {["About Us", "Contact Us", "Our Services"].map(
+            <h5 className="fw-bold mb-3 py-sm-5">Useful Links</h5>
+            {["About Company","Meet Our Team","Latest Blog", "Contact Us", "Testimonials"].map(
               (link, i) => (
                 <p key={i} className="mb-2">
                   <a href="/" className="text-light text-decoration-none d-flex align-items-center gap-2">
@@ -71,8 +69,8 @@ const Footer = () => {
 
           {/* Newsletter */}
           <Col md={6} lg={3}>
-            <h5 className="fw-bold mb-3">Newsletter</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <h5 className="fw-bold mb-3 py-sm-5">Newsletter</h5>
+            <p>Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine multifunctional mind design.</p>
    <Form className="bg-border text-white">
       <InputGroup className="bg-border">
         <FormControl

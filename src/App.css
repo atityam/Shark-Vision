@@ -164,3 +164,66 @@
 .active{
   color: #535bf2;
 }
+.notfound-icon .icon-react {
+  width: 80px;
+  height: 80px;
+  color: #2563eb; /* blue-600 equivalent */
+  margin: 0 auto 20px auto;
+}
+
+.notfound-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+
+.notfound-content {
+  max-width: 500px;
+  width: 100%;
+}
+
+.notfound-icon .icon-svg {
+  width: 80px;
+  height: 80px;
+  color: #2563eb; /* blue-600 equivalent */
+  margin: 0 auto 20px auto;
+}
+
+.notfound-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #1f2937; /* gray-800 equivalent */
+  margin-bottom: 10px;
+}
+
+.notfound-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.notfound-description {
+  font-size: 16px;
+  color: #4b5563; /* gray-600 */
+  margin-bottom: 30px;
+}
+
+.notfound-button {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.notfound-button:hover {
+  background-color: #1d4ed8; /* darker blue on hover */
+}

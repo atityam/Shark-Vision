@@ -51,9 +51,10 @@ import React, { useState } from "react";
 import { Container, Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
 import { FaPhone, FaEnvelope, FaClock, FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import homelogo from '../assets/img/icon/icon-02-primary.png';
-import { NavLink , useLocation } from "react-router-dom";
+import { NavLink , useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
+  let navigate =useNavigate()
   const [showPages, setShowPages] = useState(false);
   const location = useLocation();
   const isPagesActive = [
@@ -164,7 +165,7 @@ const Header = () => {
             </Nav.Link>
           </Nav>
 
-          <Button variant="primary" className="rounded-pill px-4 hover-blue text-white mt-3 mt-lg-0">
+          <Button onClick={()=> {navigate('/contact')}} variant="primary" className="rounded-pill px-4 hover-blue text-white mt-3 mt-lg-0" >
             Get A Quote
           </Button>
         </Navbar.Collapse>

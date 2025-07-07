@@ -49,42 +49,38 @@ const AssistanceSection = () => {
 
         {/* Right Side */}
         <Col md={6} className="my-container-2">
-          <h1 className="fw-bold mb-4">
-            We're Here To Assist You With Exploring Protection
-          </h1>
-          <p className="text-primary mb-4">
-            Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
-            lorem sit clita duo justo erat amet
+          <h1 className="fw-bold mb-4"> Essential IT Solutions for Modern Businesses</h1>
+          <p className="text-primary mb-4"> Monotonectally repurpose maintainable infrastruct whereas solutek in fermentum quis tempo sapien maximus design.
           </p>
 
           <Row className="mb-4">
-            <Col xs={6} className="d-flex align-items-start">
+            <Col md={12} className="d-flex align-items-start ">
               <Image
                 src={icon1}
                 alt="Flexible Insurance Plans"
-                style={{ width: "40px", marginRight: "15px" }}
+                style={{ width: "40px", marginRight: "15px" , marginBottom: "15px"}}
               />
               <div>
-                <h5 className="fw-bold mb-1">Flexible Insurance Plans</h5>
+                <h5 className="fw-bold mb-1">Website & Mobile application design & Development</h5>
               </div>
             </Col>
-            <Col xs={6} className="d-flex align-items-start">
+            <Col md={12} className="d-flex align-items-start">
               <Image
                 src={icon2}
                 alt="Money Back Guarantee"
                 style={{ width: "40px", marginRight: "15px" }}
               />
               <div>
-                <h5 className="fw-bold mb-1">Money Back Guarantee</h5>
+                <h5 className="fw-bold mb-1">Professional User Experince & Interface researching</h5>
               </div>
             </Col>
           </Row>
 
-          <p className="text-muted mb-4">
+          {/* <p className="text-muted mb-4">
             Tempor erat elitr rebum at clita. Diam dolor diam amet diam et eos.
             Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
             magna dolore erat amet
-          </p>
+          </p> */}
 
           <hr />
 
@@ -95,7 +91,7 @@ const AssistanceSection = () => {
               roundedCircle
               style={{ width: "50px", height: "50px", marginRight: "15px" }}
             />
-            <h5 className="fw-bold mb-0">Call Us: +012 345 6789</h5>
+            <h5 className="fw-bold mb-0">Call Us: +91 91366 68524</h5>
           </div>
         </Col>
       </Row>

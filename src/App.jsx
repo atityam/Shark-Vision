@@ -22,6 +22,9 @@ import { ContactPage } from "./Pages/ContactPage.jsx";
 import AppLayout from "./components/AppLayout.jsx";
 import FeaturesPage from './Pages/FeaturesPage';
 import AppointmentPage from './Pages/AppointmentPage';
+import TestimonialPage from "./Pages/TestimonialPage.jsx";
+import TeamMemberpage from "./Pages/TeamMemberpage.jsx";
+import ErrorPage from "./Pages/ErrorPage.jsx";
 
 
 
@@ -56,6 +59,18 @@ function App() {
       {
           path: "/appointment",
           element: <AppointmentPage/>,
+      },
+      {
+          path: "/testimonial",
+          element: <TestimonialPage/>,
+      },
+      {
+          path: "/team",
+          element: <TeamMemberpage/>,
+      },
+      {
+          path: "/404",
+          element: <ErrorPage/>,
       },
 
     ],
