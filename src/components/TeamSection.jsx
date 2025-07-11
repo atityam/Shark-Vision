@@ -7,10 +7,10 @@ import member3 from "../assets/img/team-3.jpg";
 import member4 from "../assets/img/team-4.jpg";
 
 const teamMembers = [
-  { img: member1, name: "Product Development", designation: "Creative Theme" },
-  { img: member2, name: "Product Development", designation: "Creative Theme" },
-  { img: member3, name: "Product Development", designation: "Creative Theme" },
-  { img: member4, name: "Product Development", designation: "Creative Theme" },
+  { img: member1, name: "John Doe", designation: "Product Manager" },
+  { img: member2, name: "Jin Doe", designation: "Product Developer" },
+  { img: member3, name: "Jin Doe", designation: "UI/UX Designer" },
+  { img: member4, name: "John Doe", designation: "Web Developer" },
 ];
 
 const TeamSection = () => {

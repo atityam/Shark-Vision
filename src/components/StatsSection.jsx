@@ -66,12 +66,13 @@ const StatsSection = () => {
           {/* Content */}
           <div className="container" style={{ zIndex: 2 }}>
             <h2 className="display-5 fw-bold mb-4">
-              For Individuals And Organisations
+              How Shark Vision Inquiry Expendites Investigations
             </h2>
             <p className="mb-4 fs-5">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              By breaking down your security events into cases and monitoring each cases independently with cutting-edge facial recognition, 
+              Shark Vision Inquiry helps you investigate any appearances of bad actors to gain situational awareness and understand previous attacks. 
+              New powerful case management tools enable you to ingest videos from multiple sources and perform forensic searches on those files 
+              to quickly identify potentail subjects and persons of interest.
             </p>
             <Button variant="light" size="lg">
               More Details

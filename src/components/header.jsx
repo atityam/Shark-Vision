@@ -68,9 +68,9 @@ const Header = () => {
       <div className="d-none d-lg-block" style={{ backgroundColor: "#0D1B2A", color: "white", fontSize: "0.9rem" }}>
         <Container fluid className="d-flex px-md-5 justify-content-between align-items-center py-2 flex-wrap">
           <div className="d-flex align-items-center gap-3 flex-wrap">
-            <span><FaPhone /> +012 345 6789</span>
-            <span><FaEnvelope /> info@example.com</span>
-            <span><FaClock /> Mon - Fri : 09 AM - 09 PM</span>
+            <span><FaPhone /> +91 91366 68524</span>
+            <span><FaEnvelope /> info@sharkvisionindia.com</span>
+            <span><FaClock /> Mon - Sat : 10 AM - 06 PM</span>
           </div>
           <div className="d-flex align-items-center gap-3 mt-2 mt-md-0">
             <FaFacebookF />

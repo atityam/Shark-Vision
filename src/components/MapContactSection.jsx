@@ -12,8 +12,7 @@ const MapContactSection = () => {
             If You Have Any Query, Please Contact Us
           </h1>
           <p className="mb-4 text-muted">
-            The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.{" "}
-            <a href="#" className="text-primary fw-bold">Download Now</a>.
+           Shark Vision inquiry processed thousands of hours of footage in a matter of minutes and successfully detected the robber across a number of cameras which clearly mapped out his route. 
           </p>
 
             <ContactForms/>

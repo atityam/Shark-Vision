@@ -11,8 +11,16 @@ import {
   FaChevronRight,
   FaShieldAlt,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+    const links = [
+    { label: "About Us", path: "/about" },
+    { label: "Our Services", path: "/services" },
+    { label: "Contact Us", path: "/contact" },
+    { label: "Features", path: "/features" },
+    { label: "Team Members", path: "/team" },
+  ];
   return (
     <footer className="bg-footer text-light pt-5 pb-5 py-5">
       <Container>
@@ -23,7 +31,7 @@ const Footer = () => {
               <FaShieldAlt size={30} />
              SHARK VISION
             </h4>
-            <p>Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine multifunctional mind design.
+            <p>Security teams can spend upto 80% of their time searching for known perpetrators or individuals flagged as threats.
             </p>
             <div className="d-flex gap-2 mt-3 py-sm-3">
               {[FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn].map((Icon, i) => (
@@ -43,34 +51,32 @@ const Footer = () => {
           <Col md={6} lg={3}>
             <h5 className="fw-bold mb-3 py-sm-5">Address</h5>
             <p className="mb-2 d-flex align-items-center gap-2">
-              <FaMapMarkerAlt /> 123 Street, New York, USA
+              <FaMapMarkerAlt /> 202, Plot N0. 94, Golden Tower, Sapna Sangeeta Road, Indore(M.P.), 452013
             </p>
             <p className="mb-2 d-flex align-items-center gap-2">
-              <FaPhoneAlt /> +012 345 67890
+              <FaPhoneAlt /> +91 91366 68524
             </p>
             <p className="mb-0 d-flex align-items-center gap-2">
-              <FaEnvelope /> info@example.com
+              <FaEnvelope /> info@sharkvisionindia.com
             </p>
           </Col>
 
           {/* Quick Links */}
-          <Col md={6} lg={3}>
-            <h5 className="fw-bold mb-3 py-sm-5">Useful Links</h5>
-            {["About Company","Meet Our Team","Latest Blog", "Contact Us", "Testimonials"].map(
-              (link, i) => (
-                <p key={i} className="mb-2">
-                  <a href="/" className="text-light text-decoration-none d-flex align-items-center gap-2">
-                    <FaChevronRight size={12} /> {link}
-                  </a>
-                </p>
-              )
-            )}
-          </Col>
+    <Col md={6} lg={3}>
+      <h5 className="fw-bold mb-3 py-sm-5">Useful Links</h5>
+      {links.map(({ label, path }, i) => (
+        <p key={i} className="mb-2">
+          <Link to={path} className="text-light text-decoration-none d-flex align-items-center gap-2">
+            <FaChevronRight size={12} /> {label}
+          </Link>
+        </p>
+      ))}
+    </Col>
 
           {/* Newsletter */}
           <Col md={6} lg={3}>
             <h5 className="fw-bold mb-3 py-sm-5">Newsletter</h5>
-            <p>Globally monetize plug-and-play data it solu monotonectally disseminate oriented busine multifunctional mind design.</p>
+            <p>Security teams can spend upto 80% of their time searching for known perpetrators or individuals flagged as threats.</p>
    <Form className="bg-border text-white">
       <InputGroup className="bg-border">
         <FormControl

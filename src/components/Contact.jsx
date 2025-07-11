@@ -20,11 +20,11 @@ const Contact = () => {
 >       <Container>
           <Row className="align-items-center">
             <Col md={6} className="mb-4 mb-md-0">
-              <h2 className="fw-bold mb-3">We're Award Winning Insurance Company</h2>
-              <p className="mb-4">Aliqu diam amet eos erat ipsum et lorem et sit, clita duo justo erat amet. Clita erat ipsum et lorem et sit clita duo justo magna dolore erat amet.</p>
+              <h2 className="fw-bold mb-3">What Makes Shark Vision Different? </h2>
+              <p className="mb-4">Shark Vision's multi-modal neural networks are built for real-time, real-world conditions delivering accuracy with minimal false alarms, even in crowds, low-light, and difficult video angles.</p>
               <div className="d-flex align-items-center bg-white rounded p-3 text-dark w-fit">
                 <FaPhone className="text-primary fs-3 me-3" />
-                <span className="fw-semibold">Call Us: 012 345 6789</span>
+                <span className="fw-semibold">Call Us: +91 91366 68524</span>
               </div>
             </Col>
             <Col md={6}>

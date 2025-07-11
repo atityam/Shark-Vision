@@ -32,10 +32,10 @@ const CustomCarousel = () => {
         />
         <Carousel.Caption className="text-start mb-5 ps-5 custom-caption">
           <h1 className="fw-bold display-4">
-            Empowering Your <br /> Digital Future
+            Real-time person of Interest Watching Alerting
           </h1>
           <p className="lead">
-            Where your interests meet global networks, we deliver custom software solutions with exceptional value.
+            Far too often, organizations know the threats they face, but fail to recognize the face of threats. It doesn't have to be that way.
           </p>
           <Button variant="primary" size="lg">
             Explore More
@@ -51,10 +51,10 @@ const CustomCarousel = () => {
         />
         <Carousel.Caption className="text-start mb-5 ps-5 custom-caption">
           <h1 className="fw-bold display-4">
-            Empowering Your <br /> Digital Future
+            Real-time person of Interest Watching Alerting
           </h1>
           <p className="lead">
-            Where your interests meet global networks, we deliver custom software solutions with exceptional value.
+            OnWatch reliably helps you find that proverbial needle in the haystack - in real-time, real-world conditions , so that your security team can focus on doing what it does best.
 
           </p>
           <Button variant="primary" size="lg">

@@ -49,8 +49,8 @@ const AssistanceSection = () => {
 
         {/* Right Side */}
         <Col md={6} className="my-container-2">
-          <h1 className="fw-bold mb-4"> Essential IT Solutions for Modern Businesses</h1>
-          <p className="text-primary mb-4"> Monotonectally repurpose maintainable infrastruct whereas solutek in fermentum quis tempo sapien maximus design.
+          <h1 className="fw-bold mb-4"> OnWatch finds the people who don't want to be found</h1>
+          <p className="text-primary mb-4"> Leveraging highly accurate facial recognition, plus body and attribute detection, OnWatch finds the people who don't want to be found.
           </p>
 
           <Row className="mb-4">
@@ -61,7 +61,7 @@ const AssistanceSection = () => {
                 style={{ width: "40px", marginRight: "15px" , marginBottom: "15px"}}
               />
               <div>
-                <h5 className="fw-bold mb-1">Website & Mobile application design & Development</h5>
+                <h5 className="fw-bold mb-1">The banned shoplifter trying to blend in at a crowded grocery store.</h5>
               </div>
             </Col>
             <Col md={12} className="d-flex align-items-start">
@@ -71,7 +71,47 @@ const AssistanceSection = () => {
                 style={{ width: "40px", marginRight: "15px" }}
               />
               <div>
-                <h5 className="fw-bold mb-1">Professional User Experince & Interface researching</h5>
+                <h5 className="fw-bold mb-1">The person with a restraining who is stalking an ex at their workplace.</h5>
+              </div>
+            </Col>
+            <Col md={12} className="d-flex align-items-start ">
+              <Image
+                src={icon1}
+                alt="Flexible Insurance Plans"
+                style={{ width: "40px", marginRight: "15px" , marginBottom: "15px"}}
+              />
+              <div>
+                <h5 className="fw-bold mb-1">The would-be mass shooter, looking to settle a score at a former workplace.</h5>
+              </div>
+            </Col>
+            <Col md={12} className="d-flex align-items-start">
+              <Image
+                src={icon2}
+                alt="Money Back Guarantee"
+                style={{ width: "40px", marginRight: "15px" }}
+              />
+              <div>
+                <h5 className="fw-bold mb-1">The self-excluded individual seeking to reenter a casino undetected.</h5>
+              </div>
+            </Col>
+            <Col md={12} className="d-flex align-items-start ">
+              <Image
+                src={icon1}
+                alt="Flexible Insurance Plans"
+                style={{ width: "40px", marginRight: "15px" , marginBottom: "15px"}}
+              />
+              <div>
+                <h5 className="fw-bold mb-1">The violent protestor targeting a high-profile executive at a public event.</h5>
+              </div>
+            </Col>
+            <Col md={12} className="d-flex align-items-start">
+              <Image
+                src={icon2}
+                alt="Money Back Guarantee"
+                style={{ width: "40px", marginRight: "15px" }}
+              />
+              <div>
+                <h5 className="fw-bold mb-1">The thief lurking in a parking lot.</h5>
               </div>
             </Col>
           </Row>
