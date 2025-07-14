@@ -23,7 +23,7 @@ const ErrorHeader = () => {
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item href="#" className="text-dark">
-            Pages
+            Company
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="text-primary fw-bold">
             404 Error

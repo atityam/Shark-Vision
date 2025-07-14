@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header';
+import Header from './header';
 import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
@@ -10,10 +10,8 @@ const AppLayout = () => {
     <Header/>
     <Outlet/>
     <ScrollToTop/>
-    <Footer/>
-      
+    <Footer/>      
     </>
   )
 }
-
 export default AppLayout ;

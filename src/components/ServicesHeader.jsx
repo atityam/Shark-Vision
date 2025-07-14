@@ -23,7 +23,7 @@ const ServicesHeader = () => {
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item href="#" className="text-dark">
-            Pages
+            Company
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="text-primary fw-bold">
             Services

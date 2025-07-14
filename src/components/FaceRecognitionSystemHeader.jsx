@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Breadcrumb } from "react-bootstrap";
 import contactBg from "../assets/img/bgimg.jpg"; 
 
-const ContactHeader = () => {
+const FaceRecognitionSystemHeader = () => {
   return (
     <div
       style={{
@@ -15,18 +15,18 @@ const ContactHeader = () => {
       }}
     >
       <Container>
-        <h1 className="fw-bold mb-3" style={{ fontSize: "3rem" }}>
-          Contact Us
+        <h1 className="fw-bold mb-3" style={{ fontSize: "2.5rem" }}>
+          FACE RECOGNITION SYSTEM
         </h1>
         <Breadcrumb className="bg-transparent p-0 m-0">
           <Breadcrumb.Item href="/" className="text-dark">
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item href="#" className="text-dark">
-            Company
+            Products
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="text-primary fw-bold">
-            Contact Us
+            Face Recognition System
           </Breadcrumb.Item>
         </Breadcrumb>
       </Container>
@@ -34,4 +34,4 @@ const ContactHeader = () => {
   );
 };
 
-export default ContactHeader;
+export default FaceRecognitionSystemHeader;
