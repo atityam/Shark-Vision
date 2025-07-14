@@ -7,7 +7,7 @@ import slide2 from "../assets/img/carousel-2.jpg";
 const CustomCarousel = () => {
   return (
     <Carousel
-      controls
+      controls 
       indicators={false}
       fade
       prevIcon={
@@ -18,7 +18,7 @@ const CustomCarousel = () => {
       }
       nextIcon={
         <span
-          className="carousel-control-next-icon custom-arrow"
+          className="carousel-control-next-icon custom-arrow justify-content-center align-items-center"
           aria-hidden="true"
         />
       }

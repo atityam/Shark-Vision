@@ -110,15 +110,15 @@ function Sidebar() {
 ];
   return (
     <div className="sidebar">
-      <h1 className="sidebar-title">
+      <h1 className="sidebar_title">
         Solutions by Industry<br />
         Verticals
                 <span className="underline" />
       </h1>
-      <ul className="sidebar-list">
+      <ul className="sidebar_list">
         {industries.map((item, idx) => (
-          <li key={idx} className="sidebar-item">
-            <a href="#" className="sidebar-link">
+          <li key={idx} className="sidebar_item">
+            <a href="#" className="sidebar_link">
               <span className="icon">📁</span>
               {item}
               <span className="arrow">→</span>

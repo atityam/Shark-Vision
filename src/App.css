@@ -227,3 +227,10 @@
 .notfound-button:hover {
   background-color: #1d4ed8; /* darker blue on hover */
 }
+/* Sidebar or global CSS file */
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;  /* ensure the transform works correctly */
+}
